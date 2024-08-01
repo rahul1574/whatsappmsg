@@ -31,7 +31,7 @@ function App() {
     <div className="App" style={{display:'flex',flexDirection:'column',margin:'10px',height:'700px',background:'black',justifyContent:"center"}}>
       <h1 style={{textAlign:'center',color:'white'}}>WhatsApp Message Sender</h1>
       <input style={{height:'30px',margin:'20px'}}
-        type="number"
+        type="text"
         placeholder="Phone Number (with country code)"
         value={number}
         onChange={(e) => setNumber(e.target.value)}
