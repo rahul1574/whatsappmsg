@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-    <div className="App" style={{display:'flex',flexDirection:'column',margin:'10px',height:'700px',background:'black',width:'300px',justifyContent:"center"}}>
+    <div className="App" style={{display:'flex',flexDirection:'column',margin:'10px',height:'700px',background:'black',justifyContent:"center"}}>
       <h1 style={{textAlign:'center',color:'white'}}>WhatsApp Message Sender</h1>
       <input style={{height:'30px',margin:'20px'}}
         type="number"
